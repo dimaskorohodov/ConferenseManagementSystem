@@ -1,0 +1,1325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="JavaKpiProject:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d67c611d-fbcd-4c38-a5c8-954a9e629687" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JavaKpiProject_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConferenseManagementSystem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaKpiProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/Dtos/ReportDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/META-INF/JavaKpiProject.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/controller/ApplicationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/controller/CommandManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/controller/DispatcherServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/controller/commands/Command.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/controller/commands/administrator/SeeReportsInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/controller/commands/moderator/ChangeReport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/controller/commands/speaker/GetSpeakerBonus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/controller/commands/user/LoginUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/controller/commands/user/RegistrateOnReport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/controller/commands/user/VisitReport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/controllerTransfer/CommandManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/controllerTransfer/commands/Command.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/controllerTransfer/commands/OpenLoginPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/controllerTransfer/commands/admin/OpenAdminPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/controllerTransfer/commands/admin/RegistrateModerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/controllerTransfer/commands/admin/RegistrateSpeaker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/controllerTransfer/commands/moderator/ModerateReport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/controllerTransfer/commands/moderator/OpenModeratorPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/controllerTransfer/commands/speaker/CreateReport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/controllerTransfer/commands/speaker/OpenSpeakerPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/controllerTransfer/commands/user/LoginUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/controllerTransfer/commands/user/OpenRegistrationPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/controllerTransfer/commands/user/OpenUserPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/controllerTransfer/commands/user/RegistrateReport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/controllerTransfer/commands/user/RegistrateUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/controllerTransfer/commands/user/VisitReport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/model/Mapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/model/Report.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/model/Speaker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/model/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/model/enums/UserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/persiatance/dao/ReportDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/persiatance/dao/ReportStatisticDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/persiatance/dao/SpeakerRatingDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/persiatance/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/persiatance/dao/sql/AbstractSqlDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/persiatance/dao/sql/RatingSqlDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/persiatance/dao/sql/ReportSqlDao$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/persiatance/dao/sql/ReportSqlDao$ReportRowMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/persiatance/dao/sql/ReportSqlDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/persiatance/dao/sql/ReportStatisticSqlDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/persiatance/dao/sql/UserSqlDao$SpeakerRowMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/persiatance/dao/sql/UserSqlDao$UserRowMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/persiatance/dao/sql/UserSqlDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/persiatance/dao/sql/queries/RatingQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/persiatance/dao/sql/queries/ReportQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/persiatance/dao/sql/queries/ReportStatisticQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/persiatance/dao/sql/queries/UserQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/persiatance/dbcp/ConnectionManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/persiatance/lol.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/services/ModeratorService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/services/ReportService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/services/SpeakerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/services/UserInputService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/services/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/util/Finals.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/util/MonthFormatter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/util/Pages.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/util/ParameteresAndAttributes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/util/Request.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/util/RequestParams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/util/UrlRequests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/classes/view/ApplicationView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/lib/commons-dbcp2-2.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/lib/commons-pool2-2.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/lib/protobuf-java-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/pages/adminsPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/pages/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/pages/moderatorPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/pages/registrationPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/pages/speakerPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/pages/userPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/JavaKpiProject_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dtos/ReportDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ApplicationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/CommandManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/commands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/commands/administrator/SeeReportsInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/commands/moderator/ChangeReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/commands/speaker/GetSpeakerBonus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/commands/user/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/commands/user/RegistrateOnReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/commands/user/VisitReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllerTransfer/CommandManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllerTransfer/DispatcherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllerTransfer/commands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllerTransfer/commands/OpenLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllerTransfer/commands/admin/OpenAdminPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllerTransfer/commands/admin/RegistrateModerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllerTransfer/commands/admin/RegistrateSpeaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllerTransfer/commands/moderator/ModerateReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllerTransfer/commands/moderator/OpenModeratorPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllerTransfer/commands/speaker/CreateReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllerTransfer/commands/speaker/OpenSpeakerPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllerTransfer/commands/user/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllerTransfer/commands/user/OpenRegistrationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllerTransfer/commands/user/OpenUserPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllerTransfer/commands/user/RegistrateReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllerTransfer/commands/user/RegistrateUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controllerTransfer/commands/user/VisitReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Speaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/enums/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persiatance/dao/ReportDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persiatance/dao/ReportStatisticDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persiatance/dao/SpeakerRatingDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persiatance/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persiatance/dao/sql/AbstractSqlDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persiatance/dao/sql/RatingSqlDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persiatance/dao/sql/ReportSqlDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persiatance/dao/sql/ReportStatisticSqlDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persiatance/dao/sql/UserSqlDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persiatance/dao/sql/queries/RatingQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persiatance/dao/sql/queries/ReportQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persiatance/dao/sql/queries/ReportStatisticQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persiatance/dao/sql/queries/UserQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persiatance/dbcp/ConnectionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/ModeratorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/ReportService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/SpeakerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/UserInputService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/Finals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/MonthFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/Pages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/ParameteresAndAttributes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/RequestParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/UrlRequests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/ApplicationView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SecondLab-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Dtos/ReportDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/JavaKpiProject.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/ApplicationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/CommandManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/DispatcherServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/commands/Command.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/commands/administrator/SeeReportsInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/commands/moderator/ChangeReport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/commands/speaker/GetSpeakerBonus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/commands/user/LoginUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/commands/user/RegistrateOnReport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/commands/user/VisitReport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controllerTransfer/CommandManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controllerTransfer/commands/Command.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controllerTransfer/commands/OpenLoginPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controllerTransfer/commands/admin/OpenAdminPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controllerTransfer/commands/admin/RegistrateModerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controllerTransfer/commands/admin/RegistrateSpeaker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controllerTransfer/commands/moderator/ModerateReport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controllerTransfer/commands/moderator/OpenModeratorPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controllerTransfer/commands/speaker/CreateReport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controllerTransfer/commands/speaker/OpenSpeakerPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controllerTransfer/commands/user/LoginUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controllerTransfer/commands/user/OpenRegistrationPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controllerTransfer/commands/user/OpenUserPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controllerTransfer/commands/user/RegistrateReport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controllerTransfer/commands/user/RegistrateUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controllerTransfer/commands/user/VisitReport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/Mapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/Report.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/Speaker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/model/enums/UserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/persiatance/dao/ReportDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/persiatance/dao/ReportStatisticDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/persiatance/dao/SpeakerRatingDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/persiatance/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/persiatance/dao/sql/AbstractSqlDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/persiatance/dao/sql/RatingSqlDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/persiatance/dao/sql/ReportSqlDao$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/persiatance/dao/sql/ReportSqlDao$ReportRowMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/persiatance/dao/sql/ReportSqlDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/persiatance/dao/sql/ReportStatisticSqlDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/persiatance/dao/sql/UserSqlDao$SpeakerRowMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/persiatance/dao/sql/UserSqlDao$UserRowMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/persiatance/dao/sql/UserSqlDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/persiatance/dao/sql/queries/RatingQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/persiatance/dao/sql/queries/ReportQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/persiatance/dao/sql/queries/ReportStatisticQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/persiatance/dao/sql/queries/UserQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/persiatance/dbcp/ConnectionManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/persiatance/lol.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/services/ModeratorService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/services/ReportService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/services/SpeakerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/services/UserInputService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/services/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/util/Finals.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/util/MonthFormatter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/util/Pages.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/util/ParameteresAndAttributes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/util/Request.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/util/RequestParams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/util/UrlRequests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/view/ApplicationView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/pages/adminsPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/pages/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/pages/moderatorPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/pages/registrationPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/pages/speakerPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/pages/userPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controllerTransfer/DispatcherServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controllerTransfer/commands/Command.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controllerTransfer/commands/moderator/OpenModeratorPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/CommandManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controllerTransfer/CommandManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controllerTransfer/commands/OpenLoginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="13" column="78" selection-start-line="13" selection-start-column="78" selection-end-line="13" selection-end-column="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/persiatance/dbcp/ConnectionManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controllerTransfer/commands/admin/RegistrateModerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/util/RequestParams.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/CommandManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/ApplicationController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/commands/user/LoginUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/commands/moderator/ChangeReport.java" />
+        <option value="$PROJECT_DIR$/src/main/java/view/ApplicationView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllerTransfer/commands/moderator/ChangeReport.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllerTransfer/commands/Command.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/controllerTransfer/commands/OpenLoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllerTransfer/commands/admin/OpenAdminPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllerTransfer/commands/admin/RegistrateModerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllerTransfer/commands/admin/RegistrateSpeaker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllerTransfer/commands/user/OpenRegistrationPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/persiatance/dao/sql/queries/UserQuery.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Dtos/ReportDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllerTransfer/commands/speaker/OpenSpeakerPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/Pages.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/MonthFormatter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/ReportService.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pages/speakerPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/controllerTransfer/commands/speaker/CreateReport.java" />
+        <option value="$PROJECT_DIR$/src/main/java/persiatance/dao/sql/queries/ReportQuery.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/ParameteresAndAttributes.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pages/moderatorPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/controllerTransfer/commands/moderator/OpenModeratorPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllerTransfer/commands/user/OpenUserPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllerTransfer/commands/user/LoginUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/UrlRequests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllerTransfer/CommandManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Runner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/commands/user/VisitReport.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/DispatcherServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/commands/user/RegistrateOnReport.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pages/userPage.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pages/index.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pages/registrationPage.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pages/adminsPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/persiatance/dao/sql/ReportSqlDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/persiatance/dao/sql/UserSqlDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllerTransfer/commands/user/RegistrateReport.java" />
+        <option value="$PROJECT_DIR$/src/main/java/persiatance/dao/sql/ReportStatisticSqlDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/persiatance/dao/sql/queries/ReportStatisticQuery.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllerTransfer/commands/user/VisitReport.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllerTransfer/commands/user/RegistrateUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Report.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllerTransfer/commands/moderator/ModerateReport.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controllerTransfer/DispatcherServlet.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SecondLab" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SecondLab" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="975" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SecondLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaKpiProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecondLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaKpiProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecondLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaKpiProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecondLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaKpiProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecondLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaKpiProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controllerTransfer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecondLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaKpiProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controllerTransfer" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecondLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaKpiProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecondLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaKpiProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="persiatance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecondLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaKpiProject" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecondLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaKpiProject" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecondLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaKpiProject" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/pages" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Шарага\3курс\java\JavaKpiProject\web\WEB-INF\pages" />
+      <recent name="E:\Шарага\3курс\java\JavaKpiProject\src\main\java\controllerTransfer" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="model" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.0.15">
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Runner" />
+      <module name="JavaKpiProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.0.15" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.15" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="JavaKpiProject:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SecondLab" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="16895" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="JavaKpiProject:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Runner" />
+      <item itemvalue="Tomcat Server.Tomcat 8.0.15" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Runner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d67c611d-fbcd-4c38-a5c8-954a9e629687" name="Default Changelist" comment="" />
+      <created>1573543039629</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573543039629</updated>
+      <workItem from="1573543044367" duration="10468000" />
+      <workItem from="1574632766102" duration="394000" />
+      <workItem from="1574715415136" duration="22401000" />
+      <workItem from="1575929246774" duration="15218000" />
+      <workItem from="1576529632473" duration="2692000" />
+      <workItem from="1576960613091" duration="11232000" />
+      <workItem from="1577012656800" duration="510000" />
+      <workItem from="1577013211288" duration="74115000" />
+      <workItem from="1577211850794" duration="1178000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="138208000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23221476" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.41218132" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.9575071" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.30028328" />
+      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.3101983" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3295302" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.3295302" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllerTransfer/commands/admin/RegistrateSpeaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="145" selection-start-line="21" selection-start-column="145" selection-end-line="21" selection-end-column="145" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllerTransfer/commands/user/OpenRegistrationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dtos/ReportDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/Pages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/MonthFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/persiatance/dao/sql/queries/UserQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllerTransfer/commands/speaker/OpenSpeakerPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="80" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/sql/ResultSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="1361" column="23" lean-forward="true" selection-start-line="1361" selection-start-column="23" selection-end-line="1361" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/persiatance/dao/sql/queries/ReportQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="72" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/ParameteresAndAttributes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ApplicationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllerTransfer/commands/speaker/CreateReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/commands/moderator/ChangeReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/commands/administrator/SeeReportsInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/UrlRequests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="64" lean-forward="true" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/commands/user/LoginUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="48" column="55" lean-forward="true" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/commands/user/VisitReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="28" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/commands/user/RegistrateOnReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/ReportService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllerTransfer/commands/user/OpenUserPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/moderatorPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-660">
+          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/speakerPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" selection-start-line="23" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/registrationPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="31" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/adminsPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="77" column="4" selection-start-line="77" selection-start-column="4" selection-end-line="80" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1184#1185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/persiatance/dao/sql/UserSqlDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="108" column="48" selection-start-line="108" selection-start-column="48" selection-end-line="108" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/persiatance/dao/sql/ReportStatisticSqlDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="91" column="119" selection-start-line="91" selection-start-column="119" selection-end-line="91" selection-end-column="119" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllerTransfer/commands/user/RegistrateReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="28" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/userPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/persiatance/dao/sql/queries/ReportStatisticQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllerTransfer/commands/user/VisitReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllerTransfer/commands/user/RegistrateUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Report.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="74" column="11" lean-forward="true" selection-start-line="74" selection-start-column="11" selection-end-line="74" selection-end-column="11" />
+          <folding>
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1025#1026#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="e#1095#1096#0" expanded="true" />
+            <element signature="e#1130#1131#0" expanded="true" />
+            <element signature="e#1160#1161#0" expanded="true" />
+            <element signature="e#1207#1208#0" expanded="true" />
+            <element signature="e#1245#1246#0" expanded="true" />
+            <element signature="e#1292#1293#0" expanded="true" />
+            <element signature="e#1331#1332#0" expanded="true" />
+            <element signature="e#1399#1400#0" expanded="true" />
+            <element signature="e#1455#1456#0" expanded="true" />
+            <element signature="e#1498#1499#0" expanded="true" />
+            <element signature="e#1533#1534#0" expanded="true" />
+            <element signature="e#1593#1594#0" expanded="true" />
+            <element signature="e#1641#1642#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/ModeratorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/persiatance/dao/sql/ReportSqlDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="124" column="61" lean-forward="true" selection-start-line="124" selection-start-column="61" selection-end-line="124" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/commands/speaker/GetSpeakerBonus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllerTransfer/commands/moderator/ModerateReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllerTransfer/commands/user/LoginUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/persiatance/lol.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllerTransfer/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllerTransfer/commands/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllerTransfer/commands/moderator/OpenModeratorPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/CommandManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllerTransfer/CommandManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllerTransfer/commands/OpenLoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="13" column="78" selection-start-line="13" selection-start-column="78" selection-end-line="13" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/persiatance/dbcp/ConnectionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllerTransfer/commands/admin/RegistrateModerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>JavaKpiProject:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (JavaKpiProject)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>JavaKpiProject</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.google.protobuf:protobuf-java:3.6.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
